@@ -1,0 +1,18 @@
+[package]
+name = "avp-local"
+version = "0.1.1"
+edition = "2021"
+license = "Apache-2.0"
+
+[dependencies]
+avp-local-agent = "1.0"
+actix-web = "4.3.1"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+aws-types = "1.0"
+aws-config = "1.0"
+aws-credential-types = "1.0"
+aws-sdk-verifiedpermissions = "1.0"
+tokio = "1.35.0"
+log = "0.4.20"
+env_logger = "0.10.1"
